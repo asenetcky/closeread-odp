@@ -18,3 +18,21 @@ Draw your readers attention with focus effects. @cr-features
 :::
 
 :::
+
+
+
+
+
+
+
+:::{focus-on="cr-myplot"}
+This paragraph and the one that follows will appear as one narrative block
+
+When these paragraphs scroll into view, they will reveal a histogram.
+:::
+
+:::{#cr-myplot}
+```{r}
+hist(rnorm(15))
+```
+:::
