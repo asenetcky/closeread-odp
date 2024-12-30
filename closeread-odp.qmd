@@ -5,6 +5,29 @@ format: closeread-html
 
 Hello World! Please read my Closeread story below.
 
+
+ideas:
+
+- simple-high-level diagram of modeled-data to codebase + process 
+control to data products to odp (and to powerbi from the products)
+
+- keep it simple, focus on the highlights
+
+- pros and cons?
+
+- use a vertical slice as an example - use real-fake data from the 
+ODP itself
+  
+  - diagram of fact surrounded by dims
+  - then move fake data, show process control example
+  - show a quick snippet of a wrangle
+  - mention basic idea of project setup + deployment
+    - open source strata + private internal odp pkg +
+    http to api with RSocrata
+    - wrapped up in renv + keyring for secrets
+
+
+
 :::{.cr-section}
 
 Closeread enables scrollytelling.
