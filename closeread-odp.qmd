@@ -1,6 +1,8 @@
 ---
 title: My First Closeread
-format: closeread-html
+format: 
+  closeread-html:
+    embed-resources: true
 ---
 
 Hello World! Please read my Closeread story below.
